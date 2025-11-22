@@ -4,7 +4,7 @@
 #' @param x The citbi dataset
 #' @return The citbi dataset with certain columns renamed
 
-rename_citibi = function(x){
+rename_citbi = function(x){
   x|> 
     dplyr::rename(
       "Has_amnesia" = "Amnesia_verb",

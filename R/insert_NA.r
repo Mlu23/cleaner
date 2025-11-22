@@ -4,7 +4,7 @@
 #' @param x Is the citbi dataset 
 #' @return Returns the citbi dataset with the NA's or values equivalent to NA removed or altered
 
-insertNA = function(x){
+insert_NA = function(x){
   x|> 
     dplyr::mutate(
     LocLen = ifelse(LocLen == 92, NA, LocLen),

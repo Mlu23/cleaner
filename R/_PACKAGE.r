@@ -7,5 +7,6 @@
 #' Key features:
 #' - `citbi_raw`: raw lazy-loaded dataset
 #' - `rename_citbi()`: rename columns in the dataset
-#' - `remove_NA()`: replace specific values with NA
+#' - `insert_NA()`: replace specific values with NA
+#' - `define_type()`: defines the type of data each column is
 "_PACKAGE"

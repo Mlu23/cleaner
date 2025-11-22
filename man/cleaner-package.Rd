@@ -14,7 +14,8 @@ Key features:
 \itemize{
 \item \code{citbi_raw}: raw lazy-loaded dataset
 \item \code{rename_citbi()}: rename columns in the dataset
-\item \code{remove_NA()}: replace specific values with NA
+\item \code{insert_NA()}: replace specific values with NA
+\item \code{define_type()}: defines the type of data each column is
 }
 }
 \author{
