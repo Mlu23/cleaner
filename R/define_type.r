@@ -2,8 +2,10 @@
 #' 
 #' Define the data type of each column in the citibi dataset 
 #' @param x The citbi dataset
+#' @export
 
 define_type = function(x){
+x|> 
  dplyr::mutate(
  Seiz = as.logical(Seiz),
  ActNorm = as.logical(ActNorm),
@@ -11,7 +13,7 @@ define_type = function(x){
  Dizzy = as.logical(Dizzy),
  AMS = as.logical(AMS),
  SFxPalp = as.logical(SFxPalp),
- FontBulge = as.logical(FontBulge),
+ FontBulg = as.logical(FontBulg),
  Hema = as.logical(Hema),
  Clav = as.logical(Clav),
  NeuroD = as.logical(NeuroD),

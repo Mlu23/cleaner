@@ -3,6 +3,7 @@
 #' Removes values that are counted as NA or actually NA from the non-renamed citbi dataset
 #' @param x Is the citbi dataset 
 #' @return Returns the citbi dataset with the NA's or values equivalent to NA removed or altered
+#' @export
 
 insert_NA = function(x){
   x|> 

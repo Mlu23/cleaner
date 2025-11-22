@@ -3,6 +3,7 @@
 #' Rename the columns of the citbi dataset and should occur last in the cleaning process
 #' @param x The citbi dataset
 #' @return The citbi dataset with certain columns renamed
+#' @export
 
 rename_citbi = function(x){
   x|> 
