@@ -5,7 +5,10 @@
 \alias{citbi_raw}
 \title{Raw Citbi data}
 \format{
-An object of class \code{data.frame} with 30379 rows and 26 columns.
+A dataframe
+}
+\source{
+Stat 133
 }
 \usage{
 citbi_raw
