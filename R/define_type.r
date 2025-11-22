@@ -5,7 +5,7 @@
 #' @export
 
 define_type = function(x){
-x|> 
+x|>
  dplyr::mutate(
  Seiz = as.logical(Seiz),
  ActNorm = as.logical(ActNorm),
