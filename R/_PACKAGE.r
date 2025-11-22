@@ -1,0 +1,11 @@
+#' cleaner: A package for cleaning and processing the Citbi dataset
+#'
+#' This package provides functions and datasets for cleaning, renaming,
+#' and processing the Citbi dataset.
+#'
+#' @details
+#' Key features:
+#' - `citbi_raw`: raw lazy-loaded dataset
+#' - `rename_citbi()`: rename columns in the dataset
+#' - `remove_NA()`: replace specific values with NA
+"_PACKAGE"
